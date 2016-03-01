@@ -28,7 +28,7 @@ class HTMLHelper {
         return $("<optgroup>", {
             label: name,
             id: 'group_' + name.replace(/[^w]/i,'_')
-        }
+        });
     }
 }
 
